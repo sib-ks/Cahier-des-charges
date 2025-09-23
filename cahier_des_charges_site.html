@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet Chat Instantané - Cahier des charges</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #1abc9c;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #1abc9c;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Projet Chat Instantané</h1>
+    <p>Cahier des charges & Journal de bord</p>
+  </header>
+
+  <nav>
+    <a href="#cahier">Cahier des charges</a>
+    <a href="#journal">Journal de bord</a>
+    <a href="#outils">Outils</a>
+    <a href="#sources">Sources</a>
+  </nav>
+
+  <section id="cahier">
+    <h2>Cahier des charges</h2>
+    <h3>Binôme</h3>
+    <p>Étudiant 1 : ...<br>Étudiant 2 : ...</p>
+
+    <h3>Description utilisateur</h3>
+    <p>Application de chat instantané permettant de discuter en temps réel via un serveur centralisé. Chaque utilisateur choisit un pseudo et peut envoyer/recevoir des messages dans une interface conviviale.</p>
+
+    <h3>Fonctionnalités prévues</h3>
+    <ul>
+      <li>Création de compte avec pseudo</li>
+      <li>Connexion / déconnexion au serveur</li>
+      <li>Envoi et réception de messages</li>
+      <li>Affichage des pseudos devant chaque message</li>
+      <li>Historique de discussion visible</li>
+      <li>Confirmation avant fermeture</li>
+      <li>Options futures : messages privés, emojis, fichiers joints</li>
+    </ul>
+
+    <h3>Prototype visuel</h3>
+    <pre>
+ -----------------------------------------------------
+| [Zone de discussion]                               |
+|  Pseudo1 : Salut !                                 |
+|  Pseudo2 : Hello :)                                |
+|  Moi : Bienvenue                                   |
+|                                                     |
+ -----------------------------------------------------
+| [Zone saisie message]  [Bouton Envoyer]             |
+ -----------------------------------------------------
+    </pre>
+  </section>
+
+  <section id="journal">
+    <h2>Journal de bord</h2>
+    <h3>Séance 1</h3>
+    <p>Constitution du binôme, rédaction du cahier des charges, validation avec l’enseignant.</p>
+
+    <h3>Séance 2</h3>
+    <p>Création du projet Visual Studio, première fenêtre de connexion, tests de sockets.</p>
+
+    <h3>Séance 3</h3>
+    <p>Développement de la fenêtre de chat et intégration du pseudo utilisateur.</p>
+  </section>
+
+  <section id="outils">
+    <h2>Outils & technologies</h2>
+    <ul>
+      <li>Langage : C#</li>
+      <li>IDE : Visual Studio</li>
+      <li>Framework : .NET (Sockets TCP)</li>
+      <li>Base de données : SQLite (optionnel)</li>
+      <li>Gestion de version : GitHub</li>
+    </ul>
+  </section>
+
+  <section id="sources">
+    <h2>Sources & inspirations</h2>
+    <ul>
+      <li><a href="https://learn.microsoft.com/" target="_blank">Documentation Microsoft</a></li>
+      <li><a href="https://github.com/" target="_blank">Exemples GitHub</a></li>
+      <li>Tutoriels YouTube sur C# Socket Chat</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Projet Chat Instantané (Binôme)</p>
+  </footer>
+</body>
+</html>
